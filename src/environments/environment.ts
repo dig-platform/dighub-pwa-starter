@@ -3,7 +3,19 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  defaultState: {
+    title: 'DigHub PWA Starter'
+  },
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyDOthkPz0lhPftUklnABibcTbjihS0jmtM",
+    authDomain: "dighub-starter-pwa.firebaseapp.com",
+    projectId: "dighub-starter-pwa",
+    storageBucket: "dighub-starter-pwa.appspot.com",
+    messagingSenderId: "136578591492",
+    appId: "1:136578591492:web:9c3c64405678247648be51",
+    measurementId: "G-L8017578CN"
+  }
 };
 
 /*
