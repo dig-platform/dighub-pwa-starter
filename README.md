@@ -6,9 +6,17 @@ A blank slate PWA built on Ionic v5, Angular v10, and Firebase.
 Running the app locally
 -----------------------
 
+Install app
+
 ```shell script
 npm install
 npm run start
+```
+Install functions
+
+```shell script
+cd functions
+npm install
 ```
 
 Configuration
